@@ -16,7 +16,7 @@ export const MovieDetail = () => {
       setMovies(json);
     }
     fetchMovie();
-  }, []);
+  }, [id]);
 
   return (
     <main>

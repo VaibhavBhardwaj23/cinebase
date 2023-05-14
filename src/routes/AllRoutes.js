@@ -5,7 +5,7 @@ export const AllRoutes = () => {
     <>
       <Routes>
         <Route path="/" element={<MovieList pathUrl="/movie/now_playing" />} />
-        <Route path="movie/:id" element={<MovieDetail />} />
+        <Route path="/movie/:id" element={<MovieDetail />} />
         <Route
           path="movies/popular"
           element={<MovieList pathUrl="/movie/popular" />}
